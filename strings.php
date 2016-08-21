@@ -14,4 +14,11 @@ $string2 = "
 
 echo $string2;
 
+
+$firstName = 'Rasmus';
+$lastName = 'Lerdorf';
+
+$fullname = $firstName . ' ' . $lastName;
+
+echo $fullname . " was the original creator of PHP" . "\n";
 ?>
