@@ -12,5 +12,4 @@ $miles = 42;
 $km = $miles * $mile_to_km;
 
 echo "  ", $miles, "miles = ", $km, "km";
-
 ?>
