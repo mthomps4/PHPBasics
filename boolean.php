@@ -5,6 +5,26 @@
   var_dump($a == $b);
   var_dump($a === $b);
 
+  $studentOneName = 'Dave';
+  $studentOneGPA = 3.8;
+
+  $studentTwoName = 'Treasure';
+  $studentTwoGPA = 4.0;
+
+  //Place your code below this comment
+  if($studentOneGPA == 4.0 ){
+  echo $studentOneName. " made the Honor Role with a $studentOneGPA". "\n";
+  } else {
+    echo $studentOneName. " has a GPA of ". $studentOneGPA. "\n";
+  }
+
+  if ($studentTwoGPA == 4.0){
+   echo $studentTwoName. " made the Honor Role". "\n";
+  } else {
+    echo $studentTwoName. " has a GPA of ". $studentTwoGPA. "\n";
+  }
+
+
   /*
   $a == $b	Equal	TRUE if $a is equal to $b after type juggling.
   $a === $b	Identical	TRUE if $a is equal to $b, and they are of the same type.
